@@ -6,7 +6,7 @@
     <title>@ViewData["Title"] - NEBULA CARS </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Prueba1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="/Views/Home/Styles/styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -17,27 +17,32 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+            
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
 
                     <ul class="navbar-nav m1-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">INICIO</a>
+                            <a style="font-size: 20px; font-weight: bold;"  class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Inicio">INICIO   </a>
                         </li>
                     </ul>
                     <ul class="navbar-nav m1-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">POST-VENTAS</a>
+                            <a style="font-size: 20px; font-weight: bold;" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Post-ventas">POST-VENTAS   </a>
                         </li>
                     </ul>
                     <ul class="navbar-nav m1-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">COMPRA TU AUTO</a>
+                            <a style="font-size: 20px; font-weight: bold;" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Compra-tu-auto">COMPRA TU AUTO   </a>
                         </li>
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">CONTÁCTANOS</a>
+                            <a style="font-size: 20px; font-weight: bold;" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contactanos">CONTÁCTANOS     </a>
                         </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                            <button style="font-size: 20px; font-weight: bold;"  style="border-radius: 20px; color:white; background-color: #102443; border: none; padding: 10px 20px;">    INICIAR SESIÓN</button>
                     </ul>
                 </div>
             </div>
